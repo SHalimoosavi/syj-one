@@ -53,7 +53,7 @@ bash install.sh
 
 # 3. Restart Termux, then:
 syj
-```
+<pre>
 
 ### Manual install
 
@@ -61,7 +61,7 @@ syj
 pip install rich requests dnspython anthropic pypdf reportlab python-dotenv tabulate schedule
 chmod +x syj
 ./syj
-```
+<pre>
 
 ---
 
@@ -94,7 +94,7 @@ syj business
 
 # Generate code scaffold
 syj dev
-```
+<pre>
 
 ---
 
@@ -119,14 +119,14 @@ Config file: `~/.syj-one/config/settings.json`
     "gst_rate": 18.0
   }
 }
-```
+<pre>
 
 **Set values from CLI:**
 ```bash
 syj config set api_keys.anthropic sk-ant-your-key-here
 syj config set preferences.currency USD
 syj config show
-```
+<pre>
 
 ---
 
@@ -143,7 +143,7 @@ All other modules work without any API keys.
 
 ## Project Structure
 
-```
+<pre>
 syj-one/
 ├── syj                    # Shell launcher
 ├── syj_main.py            # Main router
@@ -167,7 +167,7 @@ syj-one/
 ├── invoices/              # Generated invoices (HTML)
 ├── exports/               # PDF exports
 └── backups/               # Backup archives
-```
+<pre>
 
 ---
 
